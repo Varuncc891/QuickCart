@@ -1,0 +1,79 @@
+.success-page {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.header {
+  background-color: #fff;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #eee;
+}
+
+.header-buttons button {
+  margin-left: 10px;
+  padding: 8px 12px;
+  background-color: #1976d2;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.success-body {
+  margin-top: 130px;
+  flex: 1;
+  padding: 40px;
+  text-align: center;
+}
+
+.ratings-section {
+  margin-top: 70px;
+}
+
+.rating-category {
+  margin-bottom: 20px;
+}
+
+.star {
+  font-size: 24px;
+  cursor: pointer;
+  color: lightgray;
+}
+
+.star.filled {
+  color: gold;
+}
+
+.submit-rating {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: gray;
+  border: none;
+  color: white;
+  cursor: not-allowed;
+  border-radius: 5px;
+}
+
+.submit-rating.active {
+  background-color: green;
+  cursor: pointer;
+}
+
+.thank-you {
+  margin-top: 20px;
+  font-weight: bold;
+  color: green;
+}
+
+.footer {
+  background-color: #f8f8f8;
+  text-align: center;
+  padding: 10px 0;
+  border-top: 2px solid #eee;
+}

@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bodyo {
+  min-height: 100vh;
+  background: linear-gradient(to bottom right, #fff9e6, #fceac5); 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  background: white !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+.logo {
+  font-size: 32px;
+  font-weight: normal;
+  color: black;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+  color: black !important;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-weight: 500;
+  color: black !important; 
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: #007bff;
+}
+
+.main-area {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 120px 40px 20px;
+  width: 100%;
+  max-width: 1300px;
+
+}
+
+.info-text {
+  width: 55%;
+  font-size: 17px;
+  color: #000;
+  line-height: 1.8;
+  font-family: 'Georgia', serif;
+  margin-right: 200px;
+  margin-top: 150px;
+}
+
+.insidebox {
+  margin-top: 80px;
+  background-color: white;
+  padding: 45px 55px;
+  width: 540px;
+  height: 400px;
+  border-radius: 10px;
+  color: black;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.login {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 28px;
+  font-weight: 800;
+  text-transform: uppercase;
+  text-decoration: underline;
+  color: black;
+}
+
+.boxone {
+  margin-bottom: 15px;
+}
+
+.boxone input {
+  width: 100%;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+}
+
+.boxone button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.newto {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.register-link {
+  color: #007bff;
+  text-decoration: underline;
+}
+
+.foter {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 30px;
+  font-size: 12px;
+  background: transparent;
+  color: black; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}

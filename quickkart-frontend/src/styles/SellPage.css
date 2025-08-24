@@ -1,0 +1,72 @@
+.sell-container {
+  width: 400px;
+  margin: 60px auto;
+  background-color: #f8f3eb;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sell-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.sell-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.sell-form input {
+  margin-bottom: 15px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.sell-form button {
+  padding: 10px;
+  background-color: #3a86ff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.sell-form button:hover {
+  background-color: #265df2;
+}
+
+.header {
+  width: 100%;
+  background-color: white;
+  padding: 20px 40px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10;
+}
+
+.header .left {
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.header .right {
+  cursor: pointer;
+  font-weight: bold;
+  color: #3a86ff;
+  font-size: 20px;
+}
+
+.sell-container {
+  margin-top: 100px;
+  background-color: white;
+}
